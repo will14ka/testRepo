@@ -12,6 +12,8 @@ public class Task7 {
                 System.exit(1);
             }
         }
+
+        Arrays.sort(array);
         System.out.println(Arrays.toString(array));
     }
 }
