@@ -5,6 +5,7 @@ public class Task7 {
         int range = args.length;
         int array[] = new int[range];
         for (int i = 0; i < range; i++) {
+
             try {
                 array[i] = Integer.parseInt(args[i]);
             } catch (NumberFormatException Error) {
