@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Task6 {
     public static void main(String args[]) {
+
         int range = 4;
 
         System.out.println("Enter 4 number here:");
