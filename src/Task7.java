@@ -29,7 +29,6 @@ import java.util.Scanner;
             }
 
             System.out.println("Array1: " + Arrays.toString(array1));
-            System.out.println("Array2: " + Arrays.toString(array2));
 
         }
     }
