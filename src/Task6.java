@@ -15,14 +15,10 @@ public class Task6 {
         }
 
         int array1[] = new int[range / 2];
-        for (int i = 0; i < range / 2; i++) {
-            array1[i] = array[i];
-        }
+        System.arraycopy(array, 0, array1, 0, range / 2);
 
         int array2[] = new int[range / 2];
-        for (int i = 0; i < range / 2; i++) {
-            array2[i] = array[i + range / 2];
-        }
+        System.arraycopy(array, range / 2, array2, 0, range / 2);
 
         System.out.println("Array1: " + Arrays.toString(array1));
         System.out.println("Array2: " + Arrays.toString(array2));
