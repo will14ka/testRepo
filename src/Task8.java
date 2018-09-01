@@ -26,7 +26,7 @@ public class Task8 {
 
         //foreach
         int[] a = {10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
-        for (int x : a){
+        for (int x : a) {
             System.out.println(x);
         }
     }
