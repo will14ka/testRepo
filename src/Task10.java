@@ -6,6 +6,6 @@ public class Task10 {
         for (int i = 0; i <= 100; i++) {
             array[i] = (100 - i);
         }
-      //  System.out.println(Arrays.toString(array));
+        // System.out.println(Arrays.toString(array));
     }
 }
