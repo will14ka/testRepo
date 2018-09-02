@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class Task13 {
 
-
     static void MultiLong() {
 
         Scanner n = new Scanner(System.in);
@@ -12,7 +11,7 @@ public class Task13 {
         int b = n.nextInt();
         int multi = a * b;
         long multiLong = multi;
-        System.out.println("number1 * number2 = "+multiLong);
+        System.out.println("number1 * number2 = " + multiLong);
     }
 
     public static void main(String... args) {
