@@ -2,20 +2,21 @@ import java.util.Scanner;
 
 public class Task13 {
 
-public static void main(String... args) {
 
+    static void MultiLong() {
+
+        Scanner n = new Scanner(System.in);
+        System.out.println("Enter number1:");
+        int a = n.nextInt();
+        System.out.println("Enter number2:");
+        int b = n.nextInt();
+        int multi = a * b;
+        long multiLong = multi;
+        System.out.println("number1 * number2 = "+multiLong);
     }
 
-    public static long Multiplication(int a, int b){
-
-        System.out.println("Enter number 1:");
-        Scanner scanner = new Scanner(System.in);
-        a = Integer.parseInt(scanner.nextLine());
-        System.out.println("Enter number 2:");
-        b = Integer.parseInt(scanner.nextLine());
-        int Multi = a*b;
-        System.out.println(a*b);
-        return Multi;
-    // long multiplication = Multi.longValue();
+    public static void main(String... args) {
+        MultiLong();
     }
+
 }
